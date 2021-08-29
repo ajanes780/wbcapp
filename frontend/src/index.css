@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+.site-title {
+  font-family: 'Fredericka the Great', cursive;
+}
+main {
+  min-height: 80vh;
+}
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+h3 {
+  margin: 1rem 0rem;
+}
+.rating span {
+  margin: 0.1rem;
+}
+
+/* Carousel */
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+}
+
+.carousel-caption h2 {
+  color: #ffff;
+}
+
+.carousel img {
+  height: 350px;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+/* .carousel a {
+  margin: 0 auto;
+} */
+
+.carousel {
+  height: 500px;
+}
