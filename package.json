@@ -12,7 +12,6 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node seeder",
     "data:destroy": "node seeder -d",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm instal --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Aaron Janes",
   "license": "ISC",
