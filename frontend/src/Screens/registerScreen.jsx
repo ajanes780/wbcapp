@@ -39,6 +39,7 @@ const RegisterScreen = ({ location, history }) => {
   return (
     <FormContainer>
       <h1> Sign Up</h1>
+      <h5> If you are purchasing tickets make sure your name matches your ID</h5>
       {error && <Message variant='danger'> {error}</Message>}
       {message && <Message variant='danger'> {message}</Message>}
       {loading && <Loader />}
