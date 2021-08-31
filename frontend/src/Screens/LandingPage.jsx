@@ -7,11 +7,11 @@ const LandingPage = () => {
       <Col md={12}>
         <Image src='wbc-poster2.jpg' alt='event poster' fluid />
         <h1 className='site-title' style={{ fontSize: '3rem', textAlign: 'center' }}>
-          {' '}
           THE WILD BOYS CAMPOUT
         </h1>
-        <h6 style={{ textAlign: 'center', lineHeight: '2.5rem', fontSize: ' .6rem' }}>
-          SEASON ENDER !! WILD BOYZZZ!! . LETS CLOSE THE SEASON OUT RIGHT WITH A DEADLY PARTY! . Tickets at the gate 40 dollars. . LOCATION Six Pak saloon 22524 Highway 37 Sturgeon County AB T8L 5E6 Canada .<br />
+        <h6 style={{ textAlign: 'center', lineHeight: '2.5rem', fontSize: ' .7rem' }}>
+          SEASON ENDER !! WILD BOYZZZ!! <br />
+          <br /> LETS CLOSE THE SEASON OUT RIGHT WITH A DEADLY PARTY! . Tickets at the gate 40 dollars. . LOCATION Six Pak saloon 22524 Highway 37 Sturgeon County AB T8L 5E6 Canada .<br />
           <br />
           MUSIC @el_niven @upsidedowntown.ca DJ Skoden .<br /> <br />
           STAY THE NIGHT PITCH YOUR TENT CAMPOUT! Everyone is welcome tons of parking for trailers motorcycles or whatever u wanna bring. Pitch a tent remember this is still a campout! Plus if you don’t wanna stay the
