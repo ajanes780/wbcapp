@@ -59,10 +59,11 @@ const OrderListScreen = ({ history }) => {
                 <td>
                   <a href={`mailto:${order.user.email}`}>{order.user.email}</a>
                 </td>
-                <td>{order.createdAt.substring(0, 10)} </td>
+                <td> {order.isPaid ? order.createdAt.substring(0, 10) : <i className='fas fa-times' style={{ color: 'red' }} />} </td>
+
                 <td>{order._id} </td>
                 <td>
-                  <td> {order.isPaid ? order.createdAt : <i className='fas fa-times' style={{ color: 'red' }} />} </td>
+                  <td>{order.createdAt.substring(0, 10)} </td>
                 </td>
                 <td> {order.tracking ? order.trackingNum : <i className='fas fa-times' style={{ color: 'red' }} />} </td>
                 <td>
