@@ -40,13 +40,12 @@ const OrderListScreen = ({ history }) => {
         <Table striped bordered hover responsive>
           <thead>
             <tr>
-              <th>Order Number</th>
-              <th>Date</th>
               <th>Name</th>
               <th>Total Price</th>
-              <th>Paid On</th>
-
               <th>Email</th>
+              <th>Paid On</th>
+              <th>Order Number</th>
+              <th>Date</th>
               <th>Tracking</th>
               <th> Edit</th>
               <th> Delete</th>
@@ -55,15 +54,15 @@ const OrderListScreen = ({ history }) => {
           <tbody>
             {orders.map((order) => (
               <tr key={order._id}>
-                <td>{order._id} </td>
-                <td>{order.createdAt.substring(0, 10)} </td>
                 <td>{order.user.name} </td>
                 <td>${order.total} </td>
                 <td>
-                  <td> {order.isPaid ? order.createdAt : <i className='fas fa-times' style={{ color: 'red' }} />} </td>
-                </td>
-                <td>
                   <a href={`mailto:${order.user.email}`}>{order.user.email}</a>
+                </td>
+                <td>{order.createdAt.substring(0, 10)} </td>
+                <td>{order._id} </td>
+                <td>
+                  <td> {order.isPaid ? order.createdAt : <i className='fas fa-times' style={{ color: 'red' }} />} </td>
                 </td>
                 <td> {order.tracking ? order.trackingNum : <i className='fas fa-times' style={{ color: 'red' }} />} </td>
                 <td>
