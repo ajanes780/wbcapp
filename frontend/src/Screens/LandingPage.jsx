@@ -12,10 +12,10 @@ const LandingPage = () => {
         </h1>
         <h6 style={{ textAlign: 'center', lineHeight: '2.5rem', fontSize: ' .7rem' }}>
           SEASON ENDER !! WILD BOYZZZ!! <br />
-          <br /> LETS CLOSE THE SEASON OUT RIGHT WITH A DEADLY PARTY! . Tickets at the gate 40 dollars. . LOCATION Six Pak saloon 22524 Highway 37 Sturgeon County AB T8L 5E6 Canada <br />
+          <br /> LETS CLOSE THE SEASON OUT RIGHT WITH A DEADLY PARTY! . Tickets at the gate 40 dollars. . <br /> <br /> LOCATION <br /> Six Pak saloon 22524 Highway 37 Sturgeon County AB T8L 5E6 Canada <br />
           <br />
           MUSIC <br />
-          @el_niven @upsidedowntown.ca DJ Skoden .<br /> <br />
+          @el_niven &nbsp; @upsidedowntown.ca &nbsp; DJ Skoden <br /> <br />
           STAY THE NIGHT PITCH YOUR TENT CAMPOUT! Everyone is welcome tons of parking for trailers motorcycles or whatever u wanna bring. Pitch a tent remember this is still a campout! Plus if you don’t wanna stay the
           night but wanna drink a few cold ones… guess what cabs and Uber will pick you up and drive you home safely. .<br />
           <br /> This is not a party you wanna miss. Live music the best local vendors and company’s. 18+ BYOB or drinks by donations at the saloon. . Food trucks on site. . We will be collecting donations for @kwcsyeg
