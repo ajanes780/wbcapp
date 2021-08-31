@@ -10,10 +10,12 @@ const LandingPage = () => {
           {' '}
           THE WILD BOYS CAMPOUT
         </h1>
-        <h6 style={{ textAlign: 'center', lineHeight: '2.5rem', fontSize: ' .6rem' }}>
-          SEASON ENDER !! WILD BOYZZZ!! . LETS CLOSE THE SEASON OUT RIGHT WITH A DEADLY PARTY! . Tickets at the gate 40 dollars. . LOCATION Six Pak saloon 22524 Highway 37 Sturgeon County AB T8L 5E6 Canada .<br />
+        <h6 style={{ textAlign: 'center', lineHeight: '2.5rem', fontSize: ' .7rem' }}>
+          SEASON ENDER !! WILD BOYZZZ!! <br />
+          <br /> LETS CLOSE THE SEASON OUT RIGHT WITH A DEADLY PARTY! . Tickets at the gate 40 dollars. . LOCATION Six Pak saloon 22524 Highway 37 Sturgeon County AB T8L 5E6 Canada <br />
           <br />
-          MUSIC @el_niven @upsidedowntown.ca DJ Skoden .<br /> <br />
+          MUSIC <br />
+          @el_niven @upsidedowntown.ca DJ Skoden .<br /> <br />
           STAY THE NIGHT PITCH YOUR TENT CAMPOUT! Everyone is welcome tons of parking for trailers motorcycles or whatever u wanna bring. Pitch a tent remember this is still a campout! Plus if you don’t wanna stay the
           night but wanna drink a few cold ones… guess what cabs and Uber will pick you up and drive you home safely. .<br />
           <br /> This is not a party you wanna miss. Live music the best local vendors and company’s. 18+ BYOB or drinks by donations at the saloon. . Food trucks on site. . We will be collecting donations for @kwcsyeg
@@ -21,7 +23,7 @@ const LandingPage = () => {
           <br />
           Plus tons more exciting stuff if you’ve been to a wild boys campout you know what to expect. . <br />
           <br />
-          VENDORS / SPONSORS <br />
+          VENDORS / SPONSORS
           <br /> @tn_industries @tripsixkustoms @lifesentencecycles @hdedmonton @death.defied @eville.empire @odinmfg @fuel_the_chaos @northern_cycles @showdowntattoos @fkndeadly @skulldefy @kevin_lemire_designer
           @topyography @3astc0ast1 @broadsquadinc_ @kelevramotorcycles @hamiltonaudio @world_famous_sideshow_tattoo @coyoteblonde @rocking.chair.spirits @elite_touring_innovations
         </h6>
