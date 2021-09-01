@@ -8,7 +8,7 @@ const LandingPage = () => {
   return (
     <Container>
       <Col md={12}>
-        <Image src='wbc-poster2.jpg' alt='event poster' fluid />
+        <Image data-aos='fade-up' src='wbc-poster2.jpg' alt='event poster' fluid />
         <h1 className='site-title' data-aos='fade-up' style={{ fontSize: '3rem', textAlign: 'center' }}>
           {' '}
           THE WILD BOYS CAMPOUT
