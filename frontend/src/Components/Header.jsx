@@ -17,17 +17,17 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
+      <Navbar style={{ backgroundColor: 'black' }} variant='dark' expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand >The Wild Boys Campouts</Navbar.Brand>
+            <Navbar.Brand>The Wild Boys Campouts</Navbar.Brand>
           </LinkContainer>
-          <Navbar.Toggle  aria-controls='basic-navbar-nav' />
-          <Navbar.Collapse  id='basic-navbar-nav'>
+          <Navbar.Toggle aria-controls='basic-navbar-nav' />
+          <Navbar.Collapse id='basic-navbar-nav'>
             <Route render={({ history }) => <SearchBox history={history} />} />
             <Nav className='ms-auto'>
               <LinkContainer to='/cart'>
-                <Nav.Link >
+                <Nav.Link>
                   <i className='fas fa-shopping-cart'></i> Cart
                 </Nav.Link>
               </LinkContainer>
